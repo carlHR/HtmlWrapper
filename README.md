@@ -77,4 +77,4 @@ HtmlWrapper will produce the following html file:
 </html>
 ```
 
->>> I didn't test it for placing those includes inside functions, nor at any other given scope. I didn't tested recursive includes. I doubt they'll work or crash the app. In case of trouble, you're on your own. Those includes will just fine tune the order at which each script is wrapped inside the body, they have no other reason or goal.
+<sub><sup>I didn't test it for placing those includes inside functions, nor at any other given scope. I didn't tested recursive includes. I doubt they'll work or crash the app. In case of trouble, you're on your own. Those includes will just fine tune the order at which each script is wrapped inside the body, they have no other reason or goal.</sup></sub>
