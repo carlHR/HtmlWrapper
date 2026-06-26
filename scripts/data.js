@@ -177,7 +177,7 @@ class Base64 {
 			ss += w;
 		}
 
-		switch (len % 3) {
+		switch ((len-1) % 3) {
 		case 0:
 			ss += Base64.letter((old << 4) & 0x3F);
 			if (padding) {
